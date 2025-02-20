@@ -91,7 +91,7 @@ def create_historical_chart(data, title, y_axis_label):
 # Function to get a fun fact for a country
 @st.cache_data
 def get_fun_fact(country_name):
-    with open('data/fun_facts.json', 'w', encoding='utf-8') as f:
+    with open('data/fun_facts.json', 'r', encoding='utf-8') as f:
         fun_facts = json.load(f)
 
     return fun_facts.get(country_name, "No fun fact available for this country.")
