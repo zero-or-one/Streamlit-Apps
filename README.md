@@ -1,4 +1,4 @@
-# Small streamlit Aapplications
+# Small streamlit applications
 Cool streamlit apps I make in free time. 
 
 ## Decription
